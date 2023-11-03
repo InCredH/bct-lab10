@@ -16,4 +16,4 @@ jobs:
             npm i -g truffle
       - run:
           command:
-            truffle compile && truffle test
+            npx hardhat node & sleep 10 ; truffle compile && truffle test
